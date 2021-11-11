@@ -1,0 +1,24 @@
+.left-block {
+    background-color: rgba(240, 240, 240, 0.3);
+    border-radius: 10px;
+}
+
+.left-block, .right-block {
+    display: flex;
+    padding: 0 50px;
+    margin-bottom: 69px;
+}
+
+.description {
+    margin-left: 108px;
+    flex: 1 1 auto;
+}
+
+
+.right-block {
+    flex-direction: row-reverse;
+}
+
+.right-block > .description {
+    margin: 0 108px 0 0;
+}

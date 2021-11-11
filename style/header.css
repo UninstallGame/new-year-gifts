@@ -19,8 +19,6 @@ ul {
     display: flex;
 }
 
-li {
-    font-family: Nunito Regular, sans-serif;
-    list-style: none;
+.header-li {
     margin-left: 50px;
 }

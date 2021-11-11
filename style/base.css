@@ -21,6 +21,9 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
+}
+
+.body {
     overflow-x: hidden;
 }
 
@@ -77,6 +80,10 @@ h5 {
     max-width: 1220px;
 }
 
+body {
+     background: linear-gradient(180deg, #FEAC5E 0%, #C779D0 50.52%, #4BC0C8 100%);
+ }
+
 
 @media (max-width: 700px) {
 
@@ -111,6 +118,15 @@ h5 {
     }
 }
 
+.overflow-hide {
+    overflow: hidden;
+}
+
 .hide {
     display: none;
+}
+
+li {
+    font-family: Nunito Regular, sans-serif;
+    list-style: none;
 }
