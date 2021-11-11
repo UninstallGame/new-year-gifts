@@ -1,0 +1,68 @@
+.mobile-decoration {
+    position: relative;
+    width: 320px;
+    height: 284px;
+}
+
+#mobile-christmas-tree {
+    position: absolute;
+    left: 18px;
+    top: -2px;
+}
+
+#mobile-circle-1 {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+
+#mobile-circle-2 {
+    position: absolute;
+    right: 10px;
+    top: 176px;
+}
+
+#mobile-circle-3 {
+    position: absolute;
+    left: 33px;
+    top: 132px;
+}
+
+#mobile-circle-4 {
+    position: absolute;
+    right: 10px;
+    top: 111px;
+}
+
+#mobile-star-1 {
+    position: absolute;
+    right: 130px;
+    top: 19px;
+}
+
+#mobile-star-2 {
+    position: absolute;
+    left: -3px;
+    top: 131px;
+    transform: scale(0.7) rotate(20deg);
+}
+
+#mobile-star-3 {
+    position: absolute;
+    right: -1px;
+    bottom: 14px;
+    transform: scale(0.8) rotate(156deg);
+}
+
+#mobile-gift-1 {
+    position: absolute;
+    left: 72px;
+    top: 50px;
+}
+
+#mobile-gift-2 {
+    position: absolute;
+    left: -64px;
+    top: 113px;
+    transform: scale(0.4) rotate(357deg) rotateY(180deg);
+}

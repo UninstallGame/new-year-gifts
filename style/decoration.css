@@ -1,0 +1,204 @@
+
+#christmas-tree {
+    position: absolute;
+    top: 0;
+    right: 481px;
+}
+
+#christmas-tree-2 {
+    position: absolute;
+    top: 759px;
+    right: 109px;
+}
+
+#christmas-tree-3 {
+    position: absolute;
+    top: 1570px;
+    right: -21px;
+}
+
+#christmas-tree-4 {
+    position: absolute;
+    top: 2881px;
+    right: 1044px;
+    transform: rotate(322deg);
+}
+
+
+#circle-1 {
+    position: absolute;
+    top: 26px;
+    right: 94px;
+}
+
+#circle-2 {
+    position: absolute;
+    top: 255px;
+    right: 583px;
+}
+
+#circle-3 {
+    position: absolute;
+    top: 325px;
+    right: -62px;
+}
+
+#circle-4 {
+    position: absolute;
+    top: 934px;
+    right: 226px;
+}
+
+#circle-5 {
+    position: absolute;
+    top: 967px;
+    right: 155px;
+}
+
+#circle-6 {
+    position: absolute;
+    top: 1142px;
+    right: -18px;
+}
+
+#circle-7 {
+    position: absolute;
+    top: 1273px;
+    left: -131px;
+}
+
+#circle-8 {
+    position: absolute;
+    top: 1354px;
+    left: -115px;
+}
+
+#circle-9 {
+    position: absolute;
+    left: 940px;
+    top: 1689px;
+}
+
+#circle-10 {
+    position: absolute;
+    left: 831px;
+    top: 1848px;
+}
+
+#circle-11 {
+    position: absolute;
+    left: -126px;
+    top: 2387px;
+}
+
+
+#star-1 {
+    position: absolute;
+    top: 259px;
+    right: 611px;
+}
+
+#star-2 {
+    position: absolute;
+    top: 45px;
+    right: 181px;
+}
+
+#star-3 {
+    position: absolute;
+    top: 529px;
+    right: -57px;
+}
+
+#star-4 {
+    position: absolute;
+    top: 534px;
+    left: 7px;
+}
+
+#star-5 {
+    position: absolute;
+    top: 568px;
+    left: -88px;
+}
+
+#star-6 {
+    position: absolute;
+    top: 330px;
+    left: -132px;
+}
+
+#star-7 {
+    position: absolute;
+    top: 1169px;
+    right: -64px;
+}
+
+#star-8 {
+    position: absolute;
+    top: 1345px;
+    left: -67px;
+}
+
+#star-9 {
+    position: absolute;
+    top: 1769px;
+    left: 610px;
+    transform: rotate(56deg);
+}
+
+#star-10 {
+    position: absolute;
+    top: 2236px;
+    left: -148px;
+    transform: rotate(56deg);
+}
+
+#star-11 {
+    position: absolute;
+    top: 2823px;
+    right: -101px;
+    transform: rotate(56deg);
+}
+
+#star-12 {
+    position: absolute;
+    top: 2690px;
+    right: -54px;
+    transform: rotate(217deg);
+}
+
+#star-13 {
+    position: absolute;
+    top: 2846px;
+    left: -74px;
+    transform: rotate(357deg);
+}
+
+#star-14 {
+    position: absolute;
+    top: 2666px;
+    right: -68px;
+    transform: rotate(98deg);
+}
+
+#star-15 {
+    position: absolute;
+    top: 2868px;
+    left: -99px;
+    transform: rotate(120deg);
+}
+
+
+#gift-1 {
+    position: absolute;
+    top: 64px;
+    right: -36px;
+}
+
+#gift-2 {
+    position: absolute;
+    top: 390px;
+    right: 467px;
+}
+

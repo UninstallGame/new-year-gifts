@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Nunito Bold";
+    src: url("../assets/fonts/Nunito-Bold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Nunito Regular";
+    src: url("../assets/fonts/Nunito-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+html {
+    /**
+       погуглить default font-family
+     */
+    font-family: "Nunito Bold", sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 72px;
+    line-height: 130%;
+    color: #38393A;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 87px;
+    color: #38393A;
+}
+
+h3 {
+    font-size: 60px;
+    line-height: 82px;
+}
+
+h4 {
+    font-size: 30px;
+    line-height: 41px;
+    color: #38393A;
+}
+
+h5 {
+    font-size: 24px;
+    line-height: 33px;
+    color: #38393A;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    color: #38393A;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    color: #38393A;
+}
+
+.container {
+    font-family: "Nunito Regular", sans-serif;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1220px;
+}
+
+
+@media (max-width: 700px) {
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        color: #38393A;
+    }
+
+    h5 {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        color: #38393A;
+    }
+
+    text {
+        font-size: 18px;
+    }
+}
+
+.hide {
+    display: none;
+}
