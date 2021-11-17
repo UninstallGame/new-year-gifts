@@ -23,84 +23,146 @@
     margin: 0 108px 0 0;
 }
 
-.top-container{
+.top-container {
     display: flex;
     justify-content: space-between;
-    padding-right: 55px !important;
+    padding-right: 27px !important;
 }
-.top-container-images{
+
+.top-container-images {
     position: relative;
-
+    left: 25px;
 }
 
-h3{
+.gradient {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+h3 {
     margin: 135px 0 185px 0;
 }
 
 #page-top-img {
-    width: 350px;
+    width: 438px;
 }
-#head{
+
+#head {
     position: absolute;
-    top: 18px;
+    top: 96px;
     left: 72px;
 }
-.mobile-title{
+
+.mobile-title {
     display: none;
     text-align: center;
     line-height: 39px;
 }
 
-@media (max-width: 1100px){
-    .left-block, .right-block{
+@media (max-width: 1100px) {
+    .left-block, .right-block {
         flex-direction: column-reverse;
         padding: 15px;
         margin: 20px;
         background-color: rgba(240, 240, 240, 0.3);
         border-radius: 10px;
     }
-    .description{
+
+    .description {
         margin: 0;
     }
-    .image{
+
+    .image {
         text-align: center;
     }
-    .image > img{
+
+    .image > img {
         max-width: 100%;
     }
-    .description__title{
+
+    .description__title {
         font-size: 24px;
         line-height: 33px;
         margin-top: 0;
     }
-    .top-container{
+
+    .top-container {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        padding: 0!important ;
+        padding: 0 !important;
     }
 
 }
 
-@media (max-width: 700px){
-    .desctop-title{
+
+.decoration {
+    position: absolute;
+    left: -249px;
+    right: 20px;
+    top: 44px;
+}
+
+#circle {
+    position: absolute;
+    left: -38px;
+    top: -205px;
+}
+
+#star-1 {
+    position: absolute;
+    left: 346px;
+    top: 311px;
+}
+
+#star-2 {
+    position: absolute;
+    left: 237px;
+    top: 331px;
+}
+
+#star-3 {
+    position: absolute;
+    left: 159px;
+    top: 228px;
+}
+
+#star-4 {
+    position: absolute;
+    right: 0;
+    top: 409px;
+}
+
+
+@media (max-width: 800px) {
+
+    .decoration {
         display: none;
     }
-    .mobile-title{
+}
+
+@media (max-width: 700px) {
+    .desctop-title {
+        display: none;
+    }
+
+    .mobile-title {
         display: block;
     }
-    #page-top-img{
-        width: 230px;
+
+    #page-top-img {
+        width: 260px;
     }
-    #head{
+
+    #head {
         width: 156px;
-        top: 29px;
-        left: 66px;
+        top: 60px;
+        left: 50px;
     }
-    h3{
+
+    h3 {
         margin: 40px 0;
     }
 }
-
-
